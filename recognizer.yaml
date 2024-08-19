@@ -1,0 +1,15 @@
+recognizers:
+  -
+    name: "Aadhar Number"
+    supported_language: "en"
+    patterns:
+      -
+         name: "Aadhar Number"
+         regex: "(\\d{4}\\s\\d{4}\\s\\d{4})"
+         score: 0.01
+    context:
+     - Aadhar
+     - id
+    supported_entity: "Aadhar"
+  - 
+    name: "Driving "
